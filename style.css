@@ -229,3 +229,33 @@ a {
 .featured:hover {
     background-color: #1d4ed8;
 }
+
+.footer {
+    background-color: #0d1b2a;
+    border-top: 1px solid #1e293b;
+    padding: 30px 0;
+}
+
+.footer-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #575757;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #575757;
+    margin-left: 30px;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
