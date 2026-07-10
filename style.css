@@ -79,14 +79,14 @@ a {
     line-height: 1.6;
 }
 
-.speakers-section, .pricing-section {
+.speakers-section, .review-section, .pricing-section {
     padding: 80px 20px;
     max-width: 1320px;
     margin: 0 auto;
     text-align: center;
 }
 
-.speakers-section h2, .pricing-section h2 {
+.speakers-section h2, .review-section h2, .pricing-section h2 {
     font-size: 36px;
     color: #0d1b2a;
 }
@@ -95,11 +95,11 @@ a {
     margin-bottom: 40px;
 }
 
-.pricing-section h2 {
+.review-section h2, .pricing-section h2 {
     margin-bottom: 10px;
 }
 
-.pricing-section .subtitle {
+.review-section .subtitle, .pricing-section .subtitle {
     font-size: 18px;
     color: #575757;
     margin-bottom: 50px;
@@ -229,6 +229,82 @@ a {
 .featured:hover {
     background-color: #1d4ed8;
 }
+
+/* AI PROMPT RESULT */
+
+.review-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-card {
+    width: 31%;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-stars {
+    color: #fbbf24;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-size: 15px;
+    color: #575757;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.review-user {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.avatar-blue {
+    background-color: #1d4ed8;
+}
+
+.avatar-green {
+    background-color: #10b981;
+}
+
+.avatar-purple {
+    background-color: #8b5cf6;
+}
+
+.user-name {
+    font-size: 16px;
+    color: #0d1b2a;
+    font-weight: bold;
+}
+
+.user-title {
+    font-size: 13px;
+    color: #575757;
+}
+
+/* AI prompt result ends */
 
 .footer {
     background-color: #0d1b2a;
